@@ -3,3 +3,4 @@ let a = document.getElementById("con")
 a.innerHTML="Hello This Anil "
 //  let b= document.getElementsByClassName("clas").innerHTML ="Hey"
 
+//this is for class Selector
