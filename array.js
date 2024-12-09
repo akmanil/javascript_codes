@@ -38,8 +38,26 @@ const arr =["anil" , "sunil" , "sipun" ,"saroj" ,"gudu" , "gugul"];
 //       arrray[index] = value +1
 // });
 // console.log(Name);
-let emp = []
-for (let i = 0; i < Name.length; i++) {
-    emp.push(Name[i]+1);
-    }
-console.log(emp);
+
+
+
+//This is using for loop
+// let emp = []
+// for (let i = 0; i < Name.length; i++) {
+//     emp.push(Name[i]+1);
+//     }
+// console.log(emp);
+
+
+//using flatmap
+
+let newArray = Name.flatMap((x)=>x+1);
+console.log(newArray);
+
+
+// filter method in array
+
+//  Name.filter((val)=>{
+//     return val < 4
+//  })
+//  console.log(Name)
